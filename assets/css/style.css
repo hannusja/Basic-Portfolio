@@ -21,7 +21,7 @@ a {
     border-right: 1px solid #bbb;
     padding: 10px;
 }
-div {
+.maindiv {
     width: 960px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -31,6 +31,7 @@ div {
     line-height: 1.5;
     color: #777777;
     background-color: #ffffff;
+    min-height: calc(100vh - 95px);
 }
 img {
     padding-right: 30px;
@@ -51,4 +52,41 @@ footer {
     border-style: solid;
     border-width: 5px 0px 0px 0px;
     border-color: #4aaaa5;
+    height: 20px;
+}
+.gameblock {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding: 10px;
+}
+.gamename {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    left: 10px;
+    width: 180px;
+    padding: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+.nofloat {
+    clear: left;
+}
+form {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.input {
+     width: 100%; 
+}
+.message {
+    height: 150px;
+}
+#submit {
+   padding: 8px 15px 5px 15px; 
+   background-color: #4aaaa5;
+   color: #ffffff;
 }
